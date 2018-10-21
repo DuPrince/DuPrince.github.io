@@ -6,4 +6,4 @@
 	* 内功修炼：数据结构，算法，设计模式等
 	* 招式：Unity,Cocos,iOS,Android,GameServer等
 	
-###热烈欢迎大家投 请联系：744784681@qq.com
+### 热烈欢迎大家投 请联系：744784681@qq.com
