@@ -1,4 +1,4 @@
-### [查看博客戳这里 👆](http://kaifone.com)
+### [查看博客戳这里 👆](http://www.kaifone.com)
 ## 这是我的博客项目
 
 * 博客的大致内容
