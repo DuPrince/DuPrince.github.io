@@ -55,13 +55,12 @@
 
 ```
 # Site settings
-title: BY Blog                    # 你的博客网站标题
-SEOTitle: 柏荧的博客 | BY Blog		# SEO 标题
+title: MiUncle Blog                    # 你的博客网站标题
+SEOTitle: DDK的博客 | MiUncle Blog		# SEO 标题
 description: "Hey"	   	   # 随便说点，描述一下
 
 # SNS settings      
-github_username: qiubaiying     # 你的github账号
-jianshu_username: e71990ada2fd  # 你的简书ID。
+github_username: DuPrince     # 你的github账号
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -153,11 +152,11 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 # Friends
 friends: [
     {
-        title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
+        title: "MiUncle Blog",
+        href: "https://kaifone.com"
     },
     {
-        title: "Apple",
+        title: "Lickye",
         href: "https://apple.com/"
     }
 ]
@@ -202,12 +201,6 @@ iframe在不同的设备中，将会自动的调整大小。保留内边距是�
 
 **其次**，你只需要在下面的 yaml 头文件中设置一下就可以了。
 
-```
-# 评论系统
-# Disqus（https://disqus.com/）
-disqus_username: qiubaiying
-```
-
 #### Gitalk
 
 优点：界面干净简洁，利用 Github issue API 做的评论插件，使用 Github 帐号进行登录和评论，最喜欢的支持 Markdown 语法，对于程序员来说真是太 cool 了。
@@ -227,11 +220,6 @@ disqus_username: qiubaiying
 # Baidu Analytics
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
-ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
-```
-
 ### Customization
 
 如果你喜欢折腾，你可以去自定义这个模板的 Code。
@@ -250,7 +238,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 ### SEO Title
 
-我的博客标题是 **“BY Blog”** 但是我想要在搜索的时候显示 **“柏荧的博客 | BY Blog”** ，这个就需要 SEO Title 来定义了。
+我的博客标题是 **“MiUncle Blog”** 但是我想要在搜索的时候显示 **“定坤的博客 | MiUncle Blog”** ，这个就需要 SEO Title 来定义了。
 
 其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
 
