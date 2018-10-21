@@ -4,13 +4,6 @@ title: "About"
 description: "Hey, this is BY."
 header-img: "img/post-bg-rwd.jpg"
 ---
-
-<!-- Language Selector -->
-<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英文 English </option>
-</select> -->
-
 <!-- Chinese Version -->
 <div class="zh post-container">
 
@@ -20,7 +13,7 @@ header-img: "img/post-bg-rwd.jpg"
 
     <p>Hey，我是<strong>定坤(MiUncle)</strong>，一只Unity程序猿，现在上海工作。</p>
 
-    <p>工作、学习之余，我还是一个健身爱好者，同时也非常喜欢拳击。</p>
+    <p>正在学习数据结构、算法、设计模式等。证努力成为一名合格的程序猿。</p>
 
     <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://kaifone.com">👉MiUncle</a>。如果有什么问题，欢迎提出探讨~</p>
 
@@ -99,26 +92,5 @@ header-img: "img/post-bg-rwd.jpg"
 
  <!-- disqus 评论框 start  -->
 {% if site.disqus.enable %}
-
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "{{site.disqus.username}}";
-    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
-    var disqus_url = "{{site.url}}{{page.url}}";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
 {% endif %}
 
