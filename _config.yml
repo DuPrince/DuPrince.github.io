@@ -68,5 +68,18 @@ friends: [
     {
         title: "Lukyes's Blog",
         href: "http://blog.lukye.me"
+    },
+    {
+        title: "UWA 官网",
+        href: "https://www.uwa4d.com/"
+    },
+    {
+        title: "Unity 官网",
+        href: "https://unity3d.com/cn"
+    }
+    ,
+    {
+        title: "LeetCode 官网",
+        href: "https://unity3d.com/cn"
     }
 ]
